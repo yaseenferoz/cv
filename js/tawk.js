@@ -66,7 +66,7 @@
 			"onlineGreeting": {
 				"actionMessage": "Write a reply..",
 				"shortMessage": "Online",
-				"longMessage": "We are live and ready to chat with you now. Say something to start a live chat."
+				"longMessage": "Firoz is live and ready to reply your messages "
 			},
 			"awayGreeting": {
 				"shortMessage": "Away",
