@@ -414,7 +414,7 @@
 			message: "Chat?"
 		};
 		a.chat.we_are_live = {
-			message: "We are live and ready to chat with you now. Say something to start a live chat."
+			message: "Yaseen feroz is available and ready to chat with you"
 		};
 		a.chat.profile_prechat_text = {
 			message: "Please fill out the form below to start chatting with me."
