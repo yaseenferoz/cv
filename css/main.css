@@ -1704,7 +1704,7 @@ ul.hb-list li h6 {
     .main-header{margin:0;}
     .mobile-right {float: right !important ;margin-top: -153px !important;}
     .insta-Feed li a{ padding: 2%;}
-    .insta-Feed li a::before{background: none;}
+    .insta-Feed li a::before{background: none !important;}
     .main-header:after{bottom: 0;height: 1px;right: auto;width: 100%;top:auto;}
     .main-nav ul{margin: auto;margin: auto;padding: 10px;}
 	.right-content.col-md-9, .left-content.col-md-2{width:auto;padding-left: 15px !important;padding-right: 15px !important;}
