@@ -5,8 +5,14 @@
 
 	<!-- Metas -->
 	<meta charset="utf-8">
-	<title>Md FIROZ Resume</title>
-	<meta name="description" content="">
+	<title>Yaseen Feroz </title>
+	<meta name="description" content=" Yaseen Feroz  a results-driven, customer-focused, articulate and
+	analytical Software Developer who can think “out of the box”.
+	Strong in design and integration problem-solving skills. Expert in MEAN STACK
+	web Development with relational databases and NoSQL databases analysis and
+	design.
+	Skilled in developing business plans, requirements specifications, user
+	documentation, and architectural research.  ">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta content="telephone=no" name="format-detection">
 
@@ -764,7 +770,7 @@
 																<p class="emph-3">Visual Studio, Android
 																	Studio,repl(Read–eval–print loop), Hyper,Chrome V8,
 																	MongoDB Atlas, s3 ,Ec2 , Heroku, cloudflare, Github,
-																	SHopify, Wordpress </p>
+																	Shopify, Wordpress </p>
 															</li>
 
 
@@ -1263,10 +1269,7 @@
 	<script>
 		(function ($) {
 			"use strict";
-
-
 			// Easytab setup	
-
 			$('#wrapper').easytabs({
 				animate: true,
 				updateHash: false,
@@ -1277,11 +1280,8 @@
 				tabs: ' #main-nav.tabbed > ul > li ',
 				transitionInEasing: 'linear',
 				transitionOutEasing: 'linear'
-
 			});
-
 			// Instagram feed setup
-
 			var instaFeed = new Instafeed({
 
 				accessToken: InstagramToken,
@@ -1290,80 +1290,22 @@
 				template: '<li><a href="{{link}}"><img src="{{image}}"/></a></li>'
 			});
 			instaFeed.run();
-
-			// Google map location
-
-			$('#wrapper').bind('easytabs:after', function () {
-
-				var styles = [{
-						stylers: [{
-								saturation: -100
-							}
-
-						]
-					}, {
-						featureType: 'road',
-						elementType: 'geometry',
-						stylers: [{
-								hue: "#74b7b0"
-							},
-							{
-								visibility: 'simplified'
-							}
-						]
-					}, {
-						featureType: 'road',
-						elementType: 'labels',
-						stylers: [{
-							visibility: 'on'
-						}]
-					}],
-
-					lat = -33.867487,
-					lng = 151.20699,
-
-					customMap = new google.maps.StyledMapType(styles, {
-						name: 'Styled Map'
-					}),
-
-
-					mapOptions = {
-						zoom: 14,
-						scrollwheel: false,
-						disableDefaultUI: true,
-						center: new google.maps.LatLng(lat, lng),
-						mapTypeControlOptions: {
-							mapTypeIds: [google.maps.MapTypeId.ROADMAP]
-						}
-					},
-					map = new google.maps.Map(document.getElementById('map'), mapOptions),
-					myLatlng = new google.maps.LatLng(lat, lng),
-
-					marker = new google.maps.Marker({
-						position: myLatlng,
-						map: map,
-						icon: {
-							url: 'img/marker.png',
-							scaledSize: new google.maps.Size(35, 45)
-						}
-					});
-
-				map.mapTypes.set('map_style', customMap);
-				map.setMapTypeId('map_style');
-			});
-
 		})(jQuery);
 	</script>
-
-
-	<!-- Google analytics -->
-
-
-	<!-- End google analytics -->
-
-
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+	(function(){
+	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+	s1.async=true;
+	s1.src='js/tawk.js';
+	s1.charset='UTF-8';
+	s1.setAttribute('crossorigin','*');
+	s0.parentNode.insertBefore(s1,s0);
+	})();
+	</script>
+	<!--End of Tawk.to Script-->
 </body>
 
-<!-- Mirrored from thebook.mutationmedia.net/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Oct 2020 04:08:44 GMT -->
 
 </html>
