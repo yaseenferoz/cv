@@ -1,27 +1,7 @@
-/*
-*	THE BOOK (HTML version)
-* 	Copyright 2016
-* 	www.mutationmedia.net
-* 	Created by : mutationthemes
-*
-*/
-
-
 /** Table of Content
 ==================================================
 1-Preloader
 2-Header
-
-3-Tabs sections : 
-  3/1-About tab
-  3/2-Resume tab
-  3/3-Portfolio tab
-  3/4-Blog tab
-  3/5-Contact tab
-
-4-Footer
-5-Media queries
-
 
 /** Preloader **/
 
@@ -1633,7 +1613,7 @@ ul.hb-list li h6 {
 	.block-nav-work li a{padding:30px 18px;}
 	.post-title h4, .post-title a{font-size:23px;}
 	.block-info .col-md-4:not(:last-child){margin-bottom:30px;}
-
+	.mt-150{margin-top:40px;}
 }
 
 
@@ -1692,7 +1672,7 @@ ul.hb-list li h6 {
 	.input-columns .column1, .input-columns .column2{width:100%;}
 	.input-columns .column1 .column-inner{padding:0;}
 	.block-info .col-md-4:not(:last-child){margin-bottom:30px;}
-
+    .mt-150{margin-top:40px;}
 	
 }
 
@@ -1701,10 +1681,14 @@ ul.hb-list li h6 {
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
 	.container {position: relative;}
 	.content{padding: 100px 40px;}
-	.main-header{margin:0;}
-	.main-header:after{bottom: 0;height: 1px;right: auto;width: 100%;top:auto;}
+    .main-header{margin:0;}
+    .mobile-right {float: right !important ;margin-top: -153px !important;}
+    .insta-Feed li a{ padding: 2%;}
+    .insta-Feed li a::before{background: none !important;}
+    .main-header:after{bottom: 0;height: 1px;right: auto;width: 100%;top:auto;}
+    .main-nav ul{margin: auto;margin: auto;padding: 10px;}
 	.right-content.col-md-9, .left-content.col-md-2{width:auto;padding-left: 15px !important;padding-right: 15px !important;}
-	.main-nav ul li{float:left; width:20%;font-size:14px;position:relative;margin-bottom:0;}
+	.main-nav ul li{float:left; width:33%;font-size:14px;position:relative;margin-bottom:0;}
 	.main-nav ul li:after{content:""; background:#eaeaea;height:100%;top:0;left:0;position:absolute;width:1px;}
 	.main-nav ul li a{padding:20px 0; font-size: 0;}
 	.main-nav ul li a span{display:none;}
@@ -1758,7 +1742,7 @@ ul.hb-list li h6 {
 	.input-columns .column1, .input-columns .column2{width:100%;}
 	.input-columns .column1 .column-inner{padding:0;}
 	.block-info .col-md-4:not(:last-child){margin-bottom:30px;}
-	
+	.mt-150{margin-top:40px;}
 }
 
 
